@@ -67,7 +67,7 @@
             // TravelLength
             // 
             TravelLength.FormattingEnabled = true;
-            TravelLength.Items.AddRange(new object[] { "", "Short (1-5 days)", "Medium (6 - 12 days)", "Long (>13 days)" });
+            TravelLength.Items.AddRange(new object[] { "", "Short", "Medium", "Long" });
             TravelLength.Location = new Point(322, 140);
             TravelLength.Name = "TravelLength";
             TravelLength.Size = new Size(121, 23);
